@@ -20,7 +20,7 @@ function complete(){
 
 async function getQuote(){
   loading()
-      const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+    const proxyUrl = 'https://stormy-atoll-29846.herokuapp.com/';
       const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
       try{
           const res = await fetch(proxyUrl+ apiUrl);
